@@ -7,12 +7,12 @@ jobs:
   hello-world:
     runs-on: [self-hosted]
     steps:
-      - uses: actions/hello-world-docker-action@main
+      - uses: actions/hello-world-docker-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
   hello-world-ubi:
     runs-on: [ubuntu-latest]
     steps:
-      - uses: actions/hello-world-docker-action@main
+      - uses: actions/hello-world-docker-action@v1
         with:
           who-to-greet: 'Mona the Octocat'
